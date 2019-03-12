@@ -1,0 +1,55 @@
+body {
+	font-family: Verdana, Helevetica, Arial, sans-serif; 
+}
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+h2 {
+	color: #006cb4;
+}
+h4 {
+	margin-top: 0;
+}
+article {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+	background-image: url("../images/circle-1.png");
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+	background-size: 100px 100px;
+	/* write your message */
+	padding-top: 120px;
+	text-align: center;
+	font-size: 110%;
+}
+
+header h1:first-child {
+	color: #555555;
+	font-weight: normal;
+}
+
+#profile h2, #contact h2, #skills h2, #edu h2, #work h2, #software h2 {
+	background-image: url("../images/line.png"),url("../images/head.png");
+	background-repeat:  no-repeat;
+	background-position: 125% 50%, 0% 50%;
+	background-size: 87% 2px, 40px 40px;
+	padding-left: 55px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#contact h2 {
+	background-image:  url("../images/line.png"), url("../images/phone.png");
+	background-size: 85% 2px, 40px 40px;
+}
+#skills h2 {
+	background-image:  url("../images/line.png"), url("../images/bulb.png");
+}
+#edu h2 {
+	background-image:  url("../images/line.png"), url("../images/star.png");
+	background-size: 82% 2px, 40px 40px;
+}
